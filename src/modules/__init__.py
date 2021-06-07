@@ -20,6 +20,10 @@ from src.modules.poolings import (
     GlobalAvgPoolGenerator,
     MaxPoolGenerator,
 )
+from src.modules.invertedresidual import(
+    InvertedResidual,
+    InvertedResidualGenerator
+)
 
 __all__ = [
     "ModuleGenerator",
@@ -40,6 +44,7 @@ __all__ = [
     "MaxPoolGenerator",
     "AvgPoolGenerator",
     "GlobalAvgPoolGenerator",
+    "InvertedResidualGenerator",
     "InvertedResidualv2Generator",
     "InvertedResidualv3Generator",
 ]
